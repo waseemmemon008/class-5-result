@@ -1,0 +1,34 @@
+create database result;
+use result;
+
+create table info(
+id int ,
+name varchar(250),
+english varchar(250),
+urdu varchar(250),
+math varchar(250),
+scince varchar(250),
+islamiat varchar(250),
+Grade varchar(250),
+Status varchar (250)
+);
+
+
+select * from info;
+insert into info values(6,"hasan","45","58","53","68","74","A","pass");
+insert into info values(6,"hasan","45","58","53","68","74","A","pass");
+insert into info values(6,"nadeem","15","18","23","48","54","c","pass");
+insert into info values(8,"hasan","45","58","53","68","74","A","pass");
+insert into info values(9,"akhtar","A","A","A","A","A","F","Failed");
+insert into info values(10,"waqas","37","35","41","39","35","D","Promoted");
+insert into info values(11,"shehzad","15","58","53","62","93","B","pass");
+insert into info values(12,"hasan","45","58","53","58","74","A","pass");
+insert into info values(13,"hasan","45","58","","68","74","A","pass");
+insert into info values(14,"hasan","45","58","41","58","74","A","pass");
+insert into info values(15,"hasan","45","28","53","68","74","A","pass");
+insert into info values(16,"hasan","45","18","21","84","74","A","pass");
+insert into info values(17,"hasan","05","48","62","41","74","D","promoted");
+insert into info values(18,"hasan","25","98","82","78","74","A","pass");
+insert into info values(19,"hasan","45","18","41","98","74","A","pass");
+insert into info values(20,"hasan","25","78","71","78","74","A","pass");
+update info set name="yasir" where id =11;
