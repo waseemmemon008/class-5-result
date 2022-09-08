@@ -1,0 +1,11 @@
+use flight_4073;
+
+insert into canidates values(null, "hasan", "18", "ahsan123@gmail.com", "2-Aug-2022", 97123456896, "Saudia arbia");
+insert into canidates values(null, "akhtar", "16", "akhtar@gmail.com", "2-Aug-2022", 97129856896, "khie");
+insert into canidates values(null, "shahab", "28", "shahab123@gmail.com", "2-Aug-2022", 97123484596, "ghaitr");
+insert into canidates values(null, "mina", "25", "minasheikh123@gmail.com", "2-Aug-2022", 971238744596, "northamerica");
+insert into canidates values(null, "firda", "18", "firda123@gmail.com", "2-Aug-2022", 97123344596, "sout qatar");
+insert into canidates values(null, "samina", "78", null, "2-Aug-2022", 9812344596, "sout qatar");
+insert into canidates values(null, "dlina", "78", null, "2-Aug-2022", 9812876, "pak china");
+
+select* from canidates;
