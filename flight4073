@@ -1,0 +1,43 @@
+create database fligh_4073;
+
+use fligh_4073;
+select * from canidates;
+create table canidates(
+id int auto_increment primary key not null,
+name varchar (250),
+age int,
+emial varchar (250),
+date varchar (250),
+contact varchar (250),
+country varchar (250)
+);
+ insert into canidates values(null, "hasan", 18, "hassankhalid25804@gamil.com", "5-7-2022","0330256921828","united states" );
+insert into canidates values(null, "shehroz", 18, "shehrozkhan245@gmail.com", "5-7-2022","0450256924554","England" );
+insert into canidates values(null, "kayser", 28, "kaiserpatni@gmail.com", "5-7-2022","03346129","dubai" );
+insert into canidates values(null, "sonia", 25, "soniakhan@gmail.com", "5-7-2022","065656924554","India" );
+insert into canidates values(null, "Muneeb", 17, "muneebkhan34859@gmail.com", "5-7-2022","03032329099","Spain" );
+insert into canidates values(null, "shehroon", 32, "sshahroonkhan351@gmail.com", "5-7-2022","0359256924554","englistan" );
+insert into canidates values(null, "salman khan", 48, "salmaani@gmail.com", "5-7-2022","0560256924554","china" );
+insert into canidates(id,name,age,emial,date,country)values(null,"hiba", 35,"hibasheikh5842@gmail.com","5-7-2022","Saudia  Arabia");
+insert into canidates values(null, "kitrina", 45, "kitrinaqaid@gmail.com", "5-7-2022","06548924554","Pakistan" );
+insert into canidates values(null, "mani", 45, "manishah@gmail.com", "5-7-2022","048538924554","south america" );
+insert into canidates values(null, "loufis matradilio", 35, "loufismatrdalio@gmail.com", "5-7-2022","065487854454","chinaai" );
+insert into canidates(id,name,age,emial,date,country)values(null,"mario", 55,"marioseeta@gmail.com","5-7-2022","Pakistan");
+insert into canidates values(null, "akshar", 25, "aksharghint@gmail.com", "5-7-2022","045416524554","iceland" );
+insert into canidates values(null, "mikhtar", 18, "mikhtarlusifer@gmail.com", "5-7-2022","0347856744","mioniland" );
+insert into canidates values(null, "salanibo", 29, "salanibomishkat@gmail.com", "5-7-2022","078568524554","mionece" );
+insert into canidates values(null, "lalajaan", 15, "bhaijaankhan@gmail.com", "5-7-2022","031587524554","pakistan" );
+insert into canidates values(null, "akshar", 25, "aksharghint@gmail.com", "5-7-2022","045416524554","iceland" );
+insert into canidates values(null, "akshar", 25, "aksharghint@gmail.com", "5-7-2022","045416524554","iceland" );
+insert into canidates values(null, "akshar", 25, "aksharghint@gmail.com", "5-7-2022","045416524554","iceland" );
+insert into canidates(id,name,age,emial,date,country)values(null,"deker", 55,"dekermereino@gmail.com","5-7-2022","Pakistan");
+insert into canidates values(null, "jehengeer", 95, "jehengeer@gmail.com", "5-7-2022","0524554","southkorea" );
+insert into canidates values(null, "umair", 54, "umairsheikh@gmail.com", "5-7-2022","0335524554","pakistan" );
+insert into canidates values(null, "samina", 45, "saminahaider456@gmail.com", "5-7-2022","05454624554","pakistan" );
+insert into canidates values(null, "maimoona", 23, "maimoonakhan@gmail.com", "5-7-2022","0546524554","bangladesh" );
+insert into canidates(id,name,age,emial,date,country)values(null,"sumair", 45,"sumairbhai@gmail.com","5-7-2022","india");
+insert into canidates(id,name,age,emial,date,country)values(null,"akhtar", 85,"akhtarsheikh@gmail.com","5-7-2022","afghanistan");
+insert into canidates values(null, "rashid", 78, "rashidsumair56@gmail.com", "5-7-2022","0624554","iran" );
+insert into canidates values(null, "adir", 98, "adir.com46@gmail.com", "5-7-2022","054755687954","bangladesh" );
+insert into canidates values(null, "muneem", 45, "muneemkhan456@gmail.com", "5-7-2022","0585454554","afghanistan" );
+insert into canidates values(null, "owais", 15, "owais5824@gmail.com", "5-7-2022","0547798554","pakistan" );
